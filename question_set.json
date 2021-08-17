@@ -1,71 +1,82 @@
 {
-    "question": "To avoid scaling issues in Agile deliveries, the organisation SHOULD apply which of the following options?",
-    "correct": "red",
-    "red": "Explain to them the cost of finding defects at the end of a project can be massive and outweigh the cost of testing incrementally throughout the project.",
-    "green": "Accept this and add a few sprints at the end of the project for testing and bug fixing.",
-    "blue": "Ask them to test at least the most important features.",
-    "yellow": "Accept this and have the development team test the project themselves."
-}{
-    "question": "Select the roles prescribed by the Kanban development method.",
-    "correct": "green",
-    "green": "Increased customer satisfaction through regular feedback.",
-    "blue": "Agile gives instant benefit.",
-    "yellow": "No planning is required.",
-    "red": "The same work can be completed with fewer developers."
-}{
-    "question": "Which of the following would NOT be considered a practice that would help a team achieve continuous delivery?",
-    "correct": "green",
-    "green": "Initiating",
-    "red": "None of these",
-    "blue": "Storming",
-    "yellow": "Forming"
-}{
-    "question": "What should be the course of action when a Scrum team discovers their inability to complete the stories included in their sprint, during a daily stand-up?",
-    "correct": "green",
-    "green": "Neither Product Owner. or Development team",
-    "yellow": "Development team.",
-    "blue": "Both Product Owner. and Development team",
-    "red": "Product Owner."
-}{
-    "question": "You are working with an agile team, which of the observations below would be an example of them applying an agile way of working?",
-    "correct": "green",
-    "green": "All of these",
-    "yellow": "Wrong products development",
-    "red": "Products not meeting the requirements",
-    "blue": "Lack of trust between developers and the business users"
-}{
-    "question": "When an Agile team has created an iteration or sprint plan with an Agile Product Owner, which of the following statements is NOT true?",
-    "correct": "red",
-    "red": "Agile can cope with complex changing environments.",
-    "green": "Agile cannot cope with chaotic or disordered environments.",
-    "blue": "Agile removes the need for documentation.",
-    "yellow": "Agile projects do not use any planning."
-}{
-    "question": "The Lean Muda or seven deadly wastes does not includes __________________.",
-    "correct": "green",
-    "green": "Process Of Ongoing Improvement.",
-    "blue": "Process Of Ongoing Interactions.",
-    "red": "Process Of Ongoing Involvement.",
-    "yellow": "Process Of Ongoing Iterations."
-}{
-    "question": "The primary advantages of using Agile over traditional methods, is _________________.",
-    "correct": "red",
-    "red": "Approach the Product Owner and negotiate the scope of the lowest priority stories.",
-    "green": "Quietly schedule a few late nights hoping to finish the work on time.",
-    "blue": "Bring a few extra people into the team to help them complete all of the stories.",
-    "yellow": "Decide to de-scope the lowest priority stories."
-}{
-    "question": "When software development is delivered using a linear software development life cycle this means that?",
-    "correct": "yellow",
-    "yellow": "Most of the stories get prioritized as “must do”.",
-    "blue": "It is not compatible with Agile.",
-    "green": "Teams find it difficult to use.",
-    "red": "The output cannot be used for planning."
-}{
-    "question": "What is the disadvantage of using MoSCoW prioritization?",
-    "correct": "blue",
-    "blue": "Exploratory Testing",
-    "yellow": "Partially done work",
-    "red": "Relearning",
-    "green": "Extra features"
+    "Q1": {
+        "question": "If every event in Scrum is an opportunity to inspect and adapt, which two contribute to continuous improvement?",
+        "correct": "red",
+        "green": "The sprint review and sprint planning.",
+        "blue": "The daily scrum and retrospective.",
+        "yellow": "The retrospective and backlog refinement.",
+        "red": "The retrospective and sprint planning."
+    },
+    "Q2": {
+        "question": "You are working with an agile team, which of the observations below would be an example of them applying an agile way of working?",
+        "correct": "red",
+        "red": "The team will collaborate in groups to deliver all the work for each item.",
+        "blue": "Only the coding work is done and all testing is left until integration.",
+        "green": "All code work is done by programmers before handing to QA for test.",
+        "yellow": "Each developer completes all work on the item assigned to them."
+    },
+    "Q3": {
+        "question": "The primary advantages of using Agile over traditional methods, is _________________.",
+        "correct": "red",
+        "red": "Increased customer satisfaction through regular feedback.",
+        "yellow": "Agile gives instant benefit.",
+        "blue": "No planning is required.",
+        "green": "The same work can be completed with fewer developers."
+    },
+    "Q4": {
+        "question": "Agile teams can improve the velocity they achieve during delivery by . . .",
+        "correct": "yellow",
+        "yellow": "Improving estimation and collaboration techniques.",
+        "red": "Carrying out more analysis on items during refinement.",
+        "blue": "Increasing the number of people on the team.",
+        "green": "Forecasting more work during planning sessions."
+    },
+    "Q5": {
+        "question": "To avoid scaling issues in Agile deliveries, the organisation SHOULD apply which of the following options?",
+        "correct": "red",
+        "red": "Decompose products into independent goals.",
+        "blue": "Hire multiple Agile coaches.",
+        "green": "Send their staff on an Agile training course.",
+        "yellow": "Employ system integration consultants."
+    },
+    "Q6": {
+        "question": "The Lean Muda or seven deadly wastes does not includes __________________.",
+        "correct": "green",
+        "green": "Exploratory Testing",
+        "blue": "Partially done work",
+        "yellow": "Relearning",
+        "red": "Extra features"
+    },
+    "Q7": {
+        "question": "When an Agile team is self-organising what does this mean?",
+        "correct": "green",
+        "green": "They decide how to deliver items of work that will build the solution.",
+        "yellow": "They decide who should get promoted within the organisation.",
+        "red": "They should decide if they need to work in the office or from home.",
+        "blue": "They decide what items to be delivered provide value."
+    },
+    "Q8": {
+        "question": "Work in progress limits often prevent teams starting new items until those currently in progress are completed. Which of the below frameworks creates a sense of urgency by applying these limits?",
+        "correct": "red",
+        "red": "Kanban.",
+        "green": "Extreme Programming.",
+        "blue": "LeSS.",
+        "yellow": "Scrum."
+    },
+    "Q9": {
+        "question": "Robert is working as a Test Manager at TPT Limited. James an intern working with Robert suggest for testing only once at the end of the project instead of testing continuously. What should be Robert's response in this case?",
+        "correct": "red",
+        "red": "Explain to them the cost of finding defects at the end of a project can be massive and outweigh the cost of testing incrementally throughout the project.",
+        "blue": "Accept this and add a few sprints at the end of the project for testing and bug fixing.",
+        "yellow": "Ask them to test at least the most important features.",
+        "green": "Accept this and have the development team test the project themselves."
+    },
+    "Q10": {
+        "question": "Which of the following would NOT be considered a practice that would help a team achieve continuous delivery?",
+        "correct": "red",
+        "red": "Versioning requirements documents.",
+        "green": "Test Driven Development.",
+        "blue": "Three Amigos sessions.",
+        "yellow": "Continuous integration."
+    }
 }
